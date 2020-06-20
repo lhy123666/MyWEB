@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    background-color: #C4EBF5;
+}
+
+.myself {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.top {
+    margin: 0 auto;
+    width: 1200px;
+    height: 250px;
+    background-image: url(../images/top.jpg);
+    background-size: 100% 100%;
+}
+
+.top img {
+    margin: 20px 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    width: 1200px;
+    height: 50px;
+    background-color: #084D7D;
+    color: #fff;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+.menu ul li {
+    width: 130px;
+    margin: 0 20px;
+    float: left;  /*使导航栏向左浮动 */
+    text-align: center;
+}
+
+ul li a {
+    color: #fff;
+}
+/* 主页 */
+
+.mid {
+    width: 1140px;
+    background-color: #fff;
+    height: 500px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.midhome {
+    width: 1140px;
+    background-color: #fff;
+    height: 1000px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.about {
+    width: 100%;
+    height: 500px;
+    text-align: left;
+}
+
+.midhome h2 {
+    margin: 30px 0;
+    color: #DE7307;
+    padding: 20px 0;
+}
+
+.t2 {
+    text-align: right; 
+    /*使“我的校园”文本排列到右边*/
+    padding-right: 200px;
+}
+
+.ableft {
+    width: 45%;
+    float: left;
+    margin: 20px 2.5%;
+}
+
+.about p {
+    line-height: 35px;
+    color: #555;
+    padding: 5px 20px;
+}
+
+.dogimg { 
+    float: left;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    float: left;
+}
+
+/* 个人简历 */
+.left{
+    width: 30%;
+    height: 100%;
+    float: left;
+    padding: 30px 10px;
+}
+.right{
+    width: 62%;
+    height: 100%;
+    float: left;
+    padding: 0 30px;
+}
+.left span{
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    margin: 30px 110px;
+    border-radius: 50%;
+    /* 实现元素的圆角边框，加入背景图片后更加美观 */
+    background: url("../images/lhy.jpg")no-repeat;
+    background-size: 100%;
+    box-shadow: 3px 3px 5px grey; 
+    /* 添加灰色阴影使背景图片更加清晰美观 */
+}
+.left h1{
+    text-align: center;
+    font: 50px "微软雅黑";
+    margin-top:50px ;
+}
+.right table{
+    width: 100%;
+    height: auto;
+}
+.right table tr td{
+    width: 40%;
+    height: 50px;
+    font: 17px "微软雅黑";
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    right: 5px;
+    line-height: 100px;
+    text-align: center;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+}
+.box a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* 兴趣爱好 */
+.xingqu {
+    width: 1140px;
+    background-color: #fff;
+    height: 600px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+tr td {
+    width: 27%;
+    margin: 10px 1%;
+    padding: 10px 1%;
+    float: left;
+    text-align: center;
+}
+
+tr td img {
+    width: 70%;
+    height: 175px;
+    margin: 20px auto;
+}
+
+/* 我的博客 */
+
+.aigou {
+    width: 1140px;
+    background-color: #fff;
+    height: 700px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.news1 {
+    width: 360px;
+    height: 650px;
+    background-color: #eee;
+    margin: 10px;
+    float: left;
+}
+
+.news1 h2 {
+    color: #084D7D;
+    padding: 20px;
+}
+
+.news1 p {
+    padding: 5px 20px;
+    line-height: 30px;
+    color: #777;
+}
+
+/* 问卷区 */
+
+.dc {
+    width: 1140px;
+    background-color: #fff;
+    height: 1000px;
+    padding: 10px 30px;
+    margin: 0 auto;
+}
+
+.biaodan {
+    width: 800px;
+    height: 1000px;
+    margin: 20px auto;
+}
+
+.biaodan h2 {
+    width: 800px;
+    padding-top: 20px;
+    text-align: center;
+    color: #F88070;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.part {
+    width: 70%;
+    height: auto;
+    font-size: 16px;
+    margin: 20px auto;
+}
+
+.part span {
+    width: 160px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    display: inline-block;
+    float: left;
+}
+
+.part .ptxt {
+    width: 340px;
+    height: 30px;
+}
+
+.part .ptxt1 {
+    width: 70px;
+    height: 30px;
+}
+
+.foot {
+    width: 1200px;
+    height: 180px;
+    background-color: #084D7D;
+    color: #999;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.foot1 {
+    width: 100%;
+    height: 170px;
+    position: relative;
+    /* 生成相对定位的元素 */
+}
+
+.foot1 img {
+    width: 150px;
+    position: absolute;
+    /* 生成绝对定位元素，使图片这个子级相对于父级foot1定位 */
+    top: -20px; 
+    /* 实现了图片的错落，达到美观的效果 */
+    left: 100px;
+}
+
+.footspan {
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+
+.footspan h2 {
+    color: #fff;
+}
